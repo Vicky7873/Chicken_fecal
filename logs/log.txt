@@ -1,0 +1,54 @@
+2024-09-17 22:21:19,574 - INFO - start of looging
+2024-09-17 22:21:19,575 - INFO - created directory .github/workflows/.gitkeep
+2024-09-17 22:21:19,575 - INFO - created directory data/.gitkeep
+2024-09-17 22:21:19,575 - INFO - created directory src/__init__.py
+2024-09-17 22:21:19,575 - INFO - created directory src/utils/__init__.py
+2024-09-17 22:21:19,575 - INFO - created directory src/utils/common.py
+2024-09-17 22:21:19,575 - INFO - created directory src/components/__init__.py
+2024-09-17 22:21:19,575 - INFO - created directory src/logging/__init__.py
+2024-09-17 22:21:19,575 - INFO - created directory src/config/__init__.py
+2024-09-17 22:21:19,576 - INFO - created directory src/config/configuration.py
+2024-09-17 22:21:19,576 - INFO - created directory src/pipeline/__init__.py
+2024-09-17 22:21:19,576 - INFO - created directory src/entity/__init__.py
+2024-09-17 22:21:19,576 - INFO - created directory src/constants/__init__.py
+2024-09-17 22:21:19,576 - INFO - created directory config/config.yaml
+2024-09-17 22:21:19,576 - INFO - created directory params.yaml
+2024-09-17 22:21:19,576 - INFO - created directory setup.py
+2024-09-17 22:21:19,576 - INFO - created directory research/trials.ipynb
+2024-09-17 22:21:19,576 - INFO - created directory templates/index.html
+2024-09-17 22:21:38,574 - INFO - start of looging
+2024-09-17 22:21:38,574 - INFO - directory .github/workflows/.gitkeep already exists
+2024-09-17 22:21:38,574 - INFO - directory data/.gitkeep already exists
+2024-09-17 22:21:38,574 - INFO - directory src/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/utils/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/utils/common.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/components/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/logging/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/config/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/config/configuration.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/pipeline/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/entity/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory src/constants/__init__.py already exists
+2024-09-17 22:21:38,574 - INFO - directory config/config.yaml already exists
+2024-09-17 22:21:38,574 - INFO - directory params.yaml already exists
+2024-09-17 22:21:38,574 - INFO - directory setup.py already exists
+2024-09-17 22:21:38,574 - INFO - directory research/trials.ipynb already exists
+2024-09-17 22:21:38,574 - INFO - directory templates/index.html already exists
+2024-09-17 22:28:42,787 - INFO - start of looging
+2024-09-17 22:28:42,788 - INFO - created .github/workflows/.gitkeep
+2024-09-17 22:28:42,788 - INFO - created data/.gitkeep
+2024-09-17 22:28:42,788 - INFO - created src/__init__.py
+2024-09-17 22:28:42,788 - INFO - created src/utils/__init__.py
+2024-09-17 22:28:42,788 - INFO - created src/utils/common.py
+2024-09-17 22:28:42,789 - INFO - created src/components/__init__.py
+2024-09-17 22:28:42,789 - INFO - created src/logging/__init__.py
+2024-09-17 22:28:42,789 - INFO - created src/config/__init__.py
+2024-09-17 22:28:42,789 - INFO - created src/config/configuration.py
+2024-09-17 22:28:42,789 - INFO - created src/pipeline/__init__.py
+2024-09-17 22:28:42,789 - INFO - created src/entity/__init__.py
+2024-09-17 22:28:42,789 - INFO - created src/constants/__init__.py
+2024-09-17 22:28:42,790 - INFO - created config/config.yaml
+2024-09-17 22:28:42,790 - INFO - created params.yaml
+2024-09-17 22:28:42,790 - INFO - created setup.py
+2024-09-17 22:28:42,790 - INFO - created research/trials.ipynb
+2024-09-17 22:28:42,790 - INFO - created templates/index.html
