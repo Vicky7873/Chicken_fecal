@@ -202,3 +202,67 @@
 2024-09-18 19:51:45,399 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x
+2024-09-18 20:01:35,922 - INFO - start of looging
+2024-09-18 20:13:48,080 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:13:48,150 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:13:48,152 - INFO - created directory at: data
+2024-09-18 20:13:48,158 - INFO - created directory at: data/data_splitting
+2024-09-18 20:15:29,550 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:15:29,554 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:15:29,555 - INFO - created directory at: data
+2024-09-18 20:15:29,556 - INFO - created directory at: data/data_splitting
+2024-09-18 20:15:35,016 - INFO - start of looging
+2024-09-18 20:15:35,291 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:15:35,295 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:15:35,297 - INFO - created directory at: data
+2024-09-18 20:15:35,300 - INFO - created directory at: data/data_splitting
+2024-09-18 20:16:13,429 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:16:13,431 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:16:13,431 - INFO - created directory at: data
+2024-09-18 20:16:13,432 - INFO - created directory at: data/data_splitting
+2024-09-18 20:16:13,448 - INFO - Data splitting completed
+2024-09-18 20:17:38,926 - INFO - start of looging
+2024-09-18 20:17:39,150 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:17:39,154 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:17:39,157 - INFO - created directory at: data
+2024-09-18 20:17:39,157 - INFO - created directory at: data/data_splitting
+2024-09-18 20:17:39,302 - INFO - Data splitting completed
+2024-09-18 20:18:15,820 - INFO - start of looging
+2024-09-18 20:18:15,982 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:18:15,984 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:18:15,985 - INFO - created directory at: data
+2024-09-18 20:18:15,986 - INFO - created directory at: data/data_splitting
+2024-09-18 20:18:16,142 - INFO - Data splitting completed
+2024-09-18 20:18:39,211 - INFO - start of looging
+2024-09-18 20:18:39,326 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:18:39,327 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:18:39,327 - INFO - created directory at: data
+2024-09-18 20:18:39,328 - INFO - created directory at: data/data_splitting
+2024-09-18 20:18:39,504 - INFO - Data splitting completed
+2024-09-18 20:19:03,683 - INFO - start of looging
+2024-09-18 20:19:03,930 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:19:03,932 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:19:03,945 - INFO - created directory at: data
+2024-09-18 20:19:03,946 - INFO - created directory at: data/data_splitting
+2024-09-18 20:19:04,089 - INFO - Data splitting completed
+2024-09-18 20:24:34,293 - INFO - start of looging
+2024-09-18 20:24:34,625 - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+2024-09-18 20:24:34,626 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:24:34,627 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:24:34,627 - INFO - created directory at: data
+2024-09-18 20:24:34,627 - INFO - created directory at: data/data_ingestion
+2024-09-18 20:24:43,890 - INFO - raw data downloaded at: data/data_ingestion/Chicken_fecal.zip
+2024-09-18 20:24:43,890 - INFO -  creating directory: data/data_ingestion/extracted_files/
+2024-09-18 20:24:44,004 - INFO - zip file extracted at: data/data_ingestion/extracted_files/
+2024-09-18 20:24:44,004 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+2024-09-18 20:24:44,004 - INFO - >>>>>> stage Data Splitting Stage started <<<<<<
+2024-09-18 20:24:44,005 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 20:24:44,005 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 20:24:44,005 - INFO - created directory at: data
+2024-09-18 20:24:44,005 - INFO - created directory at: data/data_splitting
+2024-09-18 20:24:44,075 - INFO - Data splitting completed
+2024-09-18 20:24:44,075 - INFO - >>>>>> stage Data Splitting Stage completed <<<<<<
+
+x==========x

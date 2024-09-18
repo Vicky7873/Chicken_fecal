@@ -1,7 +1,7 @@
 import os
 from src.constants import *
 from src.utils.common import read_yaml, create_directories
-from src.entity import DataIngestionConfig
+from src.entity import DataIngestionConfig, DataSplittingConfig
 
 
 
@@ -26,3 +26,18 @@ class ConfigurationManager:
         )
         
         return data_ingestion_config
+
+
+    def get_data_spllitting(self) -> DataSplittingConfig:
+        config = self.config.data_splitting
+
+        create_directories([config.root_dir])
+
+        data_splitting_config = DataSplittingConfig(
+            root_dir=config.root_dir,
+            raw_data_dir=config.raw_data_dir,
+            output_data=config.output_data,
+            ratio=self.params.ratio
+        )
+
+        return data_splitting_config

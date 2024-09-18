@@ -8,4 +8,5 @@ tensorflow
 python-box
 ensure
 gdown
+split-folders
 -e .

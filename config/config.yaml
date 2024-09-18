@@ -4,4 +4,11 @@ data_ingestion:
   root_dir: data/data_ingestion
   source_URL: https://drive.google.com/file/d/1BoMmXX1A0bc-inv1QK19Ci6L-r96iXjv/view?usp=drive_link
   local_data_file: data/data_ingestion/Chicken_fecal.zip
-  unzip_dir: data/data_ingestion/extracted_files
+  unzip_dir: data/data_ingestion/extracted_files/
+
+
+data_splitting:
+  root_dir: data/data_splitting
+  raw_data_dir: data/data_ingestion/extracted_files/Chicken-fecal-images/
+  output_data: data/data_splitting
+  
