@@ -1,7 +1,7 @@
 import os
 from src.constants import *
 from src.utils.common import read_yaml, create_directories
-from src.entity import DataIngestionConfig, DataSplittingConfig
+from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig
 
 
 
@@ -41,3 +41,28 @@ class ConfigurationManager:
         )
 
         return data_splitting_config
+    
+
+    def get_data_aug(self) -> DataAugConfig:
+        config = self.config.data_aug
+        params = self.params.AUGMENTATION
+
+        model_config = DataAugConfig(
+            root_dir=config.root_dir,
+            train_data= config.train_data,
+            test_data=config.test_data,
+            val_data=config.val_data,
+            train_data_aug=config.train_data_aug,
+            test_data_aug=config.test_data_aug,
+            val_data_aug=config.val_data_aug,
+            horizontal_flip=params.horizontal_flip,
+            vertical_flip=params.vertical_flip,
+            rotation_range=params.rotation_range,
+            zoom_range=params.zoom_range,
+            shear_range=params.shear_range,
+            width_shift_range=params.width_shift_range,
+            height_shift_range=params.height_shift_range,
+            target_size=params.target_size
+        )
+
+        return model_config

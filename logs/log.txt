@@ -266,3 +266,131 @@ x==========x
 2024-09-18 20:24:44,075 - INFO - >>>>>> stage Data Splitting Stage completed <<<<<<
 
 x==========x
+2024-09-18 20:54:16,789 - INFO - start of looging
+2024-09-18 21:13:29,612 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:13:29,618 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:13:29,619 - INFO - created directory at: data
+2024-09-18 21:14:06,979 - INFO - start of looging
+2024-09-18 21:14:10,265 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:14:10,267 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:14:10,267 - INFO - created directory at: data
+2024-09-18 21:14:53,160 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:14:53,162 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:14:53,163 - INFO - created directory at: data
+2024-09-18 21:14:57,884 - INFO - start of looging
+2024-09-18 21:15:00,190 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:15:00,191 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:15:00,192 - INFO - created directory at: data
+2024-09-18 21:16:08,132 - INFO - start of looging
+2024-09-18 21:16:10,595 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:16:10,597 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:16:10,598 - INFO - created directory at: data
+2024-09-18 21:16:45,275 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:16:45,279 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:16:45,282 - INFO - created directory at: data
+2024-09-18 21:18:24,334 - INFO - start of looging
+2024-09-18 21:18:26,953 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:18:26,955 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:18:26,955 - INFO - created directory at: data
+2024-09-18 21:19:30,644 - INFO - start of looging
+2024-09-18 21:19:32,971 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:19:32,973 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:19:32,973 - INFO - created directory at: data
+2024-09-18 21:21:04,147 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:21:04,153 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:21:04,157 - INFO - created directory at: data
+2024-09-18 21:23:15,643 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:23:15,646 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:23:15,646 - INFO - created directory at: data
+2024-09-18 21:24:49,994 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:24:49,996 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:24:49,997 - INFO - created directory at: data
+2024-09-18 21:27:03,279 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:27:03,281 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:27:03,282 - INFO - created directory at: data
+2024-09-18 21:27:31,823 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:27:31,825 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:27:31,826 - INFO - created directory at: data
+2024-09-18 21:27:56,561 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:27:56,563 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:27:56,564 - INFO - created directory at: data
+2024-09-18 21:28:42,428 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:28:42,430 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:28:42,430 - INFO - created directory at: data
+2024-09-18 21:28:47,601 - INFO - start of looging
+2024-09-18 21:28:50,720 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:28:50,722 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:28:50,722 - INFO - created directory at: data
+2024-09-18 21:29:09,370 - INFO - start of looging
+2024-09-18 21:29:11,626 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:29:11,627 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:29:11,627 - INFO - created directory at: data
+2024-09-18 21:31:10,879 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:31:10,882 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:31:10,883 - INFO - created directory at: data
+2024-09-18 21:32:15,959 - INFO - start of looging
+2024-09-18 21:32:18,284 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:32:18,285 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:32:18,285 - INFO - created directory at: data
+2024-09-18 21:33:33,457 - INFO - start of looging
+2024-09-18 21:33:35,836 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:33:35,838 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:33:35,839 - INFO - created directory at: data
+2024-09-18 21:36:01,610 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:36:01,615 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:36:01,616 - INFO - created directory at: data
+2024-09-18 21:36:36,920 - INFO - start of looging
+2024-09-18 21:36:39,540 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:36:39,541 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:36:39,542 - INFO - created directory at: data
+2024-09-18 21:38:25,963 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:38:25,966 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:38:25,967 - INFO - created directory at: data
+2024-09-18 21:42:20,357 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:42:20,359 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:42:20,360 - INFO - created directory at: data
+2024-09-18 21:42:54,383 - INFO - start of looging
+2024-09-18 21:42:56,772 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 21:42:56,774 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 21:42:56,774 - INFO - created directory at: data
+2024-09-18 22:06:14,545 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:06:14,549 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:06:14,550 - INFO - created directory at: data
+2024-09-18 22:11:28,381 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:11:28,384 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:11:28,385 - INFO - created directory at: data
+2024-09-18 22:12:07,399 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:12:07,402 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:12:07,403 - INFO - created directory at: data
+2024-09-18 22:13:49,297 - INFO - start of looging
+2024-09-18 22:13:52,567 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:13:52,568 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:13:52,569 - INFO - created directory at: data
+2024-09-18 22:49:51,708 - INFO - start of looging
+2024-09-18 22:49:54,882 - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+2024-09-18 22:49:54,883 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:49:54,885 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:49:54,885 - INFO - created directory at: data
+2024-09-18 22:49:54,885 - INFO - created directory at: data/data_ingestion
+2024-09-18 22:50:04,535 - INFO - raw data downloaded at: data/data_ingestion/Chicken_fecal.zip
+2024-09-18 22:50:04,535 - INFO -  creating directory: data/data_ingestion/extracted_files/
+2024-09-18 22:50:04,640 - INFO - zip file extracted at: data/data_ingestion/extracted_files/
+2024-09-18 22:50:04,640 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+2024-09-18 22:50:04,640 - INFO - >>>>>> stage Data Splitting Stage started <<<<<<
+2024-09-18 22:50:04,641 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:50:04,642 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:50:04,642 - INFO - created directory at: data
+2024-09-18 22:50:04,642 - INFO - created directory at: data/data_splitting
+2024-09-18 22:50:04,709 - INFO - Data splitting completed
+2024-09-18 22:50:04,709 - INFO - >>>>>> stage Data Splitting Stage completed <<<<<<
+
+x==========x
+2024-09-18 22:50:04,710 - INFO - >>>>>> stage Data Augmentation Stage started <<<<<<
+2024-09-18 22:50:04,710 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-18 22:50:04,711 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-18 22:50:04,711 - INFO - created directory at: data
+2024-09-18 22:50:04,722 - INFO - >>>>>> stage Data Augmentation Stage completed <<<<<<
+
+x==========x

@@ -12,3 +12,12 @@ data_splitting:
   raw_data_dir: data/data_ingestion/extracted_files/Chicken-fecal-images/
   output_data: data/data_splitting
   
+
+data_aug:
+  root_dir: data/data_augmented
+  train_data: data/data_splitting/train
+  test_data: data/data_splitting/test
+  val_data: data/data_splitting/val
+  train_data_aug: data/data_augmented/train
+  test_data_aug: data/data_augmented/test
+  val_data_aug: data/data_augmented/val

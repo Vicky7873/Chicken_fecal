@@ -9,4 +9,5 @@ python-box
 ensure
 gdown
 split-folders
+opencv-python
 -e .

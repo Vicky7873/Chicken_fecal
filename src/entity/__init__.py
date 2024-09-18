@@ -16,3 +16,21 @@ class DataSplittingConfig:
     output_data: Path
     ratio: tuple
     
+
+@dataclass(frozen=True)
+class DataAugConfig:
+    root_dir: Path
+    train_data: Path
+    test_data: Path
+    val_data: Path
+    train_data_aug: Path
+    test_data_aug: Path
+    val_data_aug: Path
+    horizontal_flip: bool
+    vertical_flip: bool
+    rotation_range: int
+    zoom_range: float
+    shear_range: float
+    width_shift_range: float
+    height_shift_range: float
+    target_size: tuple
