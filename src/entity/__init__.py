@@ -34,3 +34,11 @@ class DataAugConfig:
     width_shift_range: float
     height_shift_range: float
     target_size: tuple
+
+@dataclass(frozen=True)
+class ModelBuildingConfig:
+    root_dir: Path
+    model_save: Path
+    units: int
+    activation: str
+    input_shape: tuple

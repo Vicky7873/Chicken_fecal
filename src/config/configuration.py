@@ -1,7 +1,7 @@
 import os
 from src.constants import *
 from src.utils.common import read_yaml, create_directories
-from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig
+from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig,ModelBuildingConfig
 
 
 
@@ -66,3 +66,16 @@ class ConfigurationManager:
         )
 
         return model_config
+    
+
+    def get_model_building(self) -> ModelBuildingConfig:
+        config = self.config.Model_Building
+        params = self.params.Model_Building
+        model_config_one = ModelBuildingConfig(
+            root_dir=config.root_dir,
+            model_save=config.model_save,
+            units = params.units,
+            activation=params.activation,
+            input_shape=params.input_shape
+        )
+        return model_config_one

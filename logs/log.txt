@@ -394,3 +394,91 @@ x==========x
 2024-09-18 22:50:04,722 - INFO - >>>>>> stage Data Augmentation Stage completed <<<<<<
 
 x==========x
+2024-09-18 23:37:19,970 - INFO - start of looging
+2024-09-19 00:08:07,878 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:08:07,887 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:08:07,890 - INFO - created directory at: data
+2024-09-19 00:08:53,318 - INFO - start of looging
+2024-09-19 00:08:56,422 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:08:56,425 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:08:56,427 - INFO - created directory at: data
+2024-09-19 00:09:42,206 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:09:42,209 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:09:42,210 - INFO - created directory at: data
+2024-09-19 00:10:18,692 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:10:18,695 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:10:18,696 - INFO - created directory at: data
+2024-09-19 00:11:11,104 - INFO - start of looging
+2024-09-19 00:11:13,541 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:11:13,542 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:11:13,543 - INFO - created directory at: data
+2024-09-19 00:12:15,309 - INFO - start of looging
+2024-09-19 00:12:17,837 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:12:17,838 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:12:17,839 - INFO - created directory at: data
+2024-09-19 00:14:51,010 - INFO - start of looging
+2024-09-19 00:14:53,614 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:14:53,615 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:14:53,616 - INFO - created directory at: data
+2024-09-19 00:14:53,895 - INFO - Model building completed
+2024-09-19 00:21:11,863 - INFO - start of looging
+2024-09-19 00:21:14,239 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:21:14,240 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:21:14,241 - INFO - created directory at: data
+2024-09-19 00:21:14,520 - INFO - Model building completed
+2024-09-19 00:22:07,152 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:22:07,154 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:22:07,156 - INFO - created directory at: data
+2024-09-19 00:22:07,405 - INFO - Model building completed
+2024-09-19 00:22:07,489 - INFO - Function `__call__` contains input name(s) resource with unsupported characters which will be renamed to functional_1_1_dense_1_1_add_readvariableop_resource in the SavedModel.
+2024-09-19 00:22:07,519 - INFO - Function `__call__` contains input name(s) resource with unsupported characters which will be renamed to functional_1_1_dense_1_1_add_readvariableop_resource in the SavedModel.
+2024-09-19 00:22:07,762 - INFO - Assets written to: data/model_building/assets
+2024-09-19 00:22:32,868 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:22:32,871 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:22:32,872 - INFO - created directory at: data
+2024-09-19 00:22:33,117 - INFO - Model building completed
+2024-09-19 00:26:52,600 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:26:52,602 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:26:52,603 - INFO - created directory at: data
+2024-09-19 00:26:52,833 - INFO - Model building completed
+2024-09-19 00:27:19,369 - INFO - start of looging
+2024-09-19 00:27:21,981 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:27:21,982 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:27:21,983 - INFO - created directory at: data
+2024-09-19 00:27:22,214 - INFO - Model building completed
+2024-09-19 00:32:27,011 - INFO - start of looging
+2024-09-19 00:32:29,382 - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+2024-09-19 00:32:29,384 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:32:29,384 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:32:29,385 - INFO - created directory at: data
+2024-09-19 00:32:29,385 - INFO - created directory at: data/data_ingestion
+2024-09-19 00:32:36,950 - INFO - raw data downloaded at: data/data_ingestion/Chicken_fecal.zip
+2024-09-19 00:32:36,951 - INFO -  creating directory: data/data_ingestion/extracted_files/
+2024-09-19 00:32:37,045 - INFO - zip file extracted at: data/data_ingestion/extracted_files/
+2024-09-19 00:32:37,045 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+2024-09-19 00:32:37,045 - INFO - >>>>>> stage Data Splitting Stage started <<<<<<
+2024-09-19 00:32:37,046 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:32:37,047 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:32:37,047 - INFO - created directory at: data
+2024-09-19 00:32:37,047 - INFO - created directory at: data/data_splitting
+2024-09-19 00:32:37,154 - INFO - Data splitting completed
+2024-09-19 00:32:37,155 - INFO - >>>>>> stage Data Splitting Stage completed <<<<<<
+
+x==========x
+2024-09-19 00:32:37,155 - INFO - >>>>>> stage Data Augmentation Stage started <<<<<<
+2024-09-19 00:32:37,156 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:32:37,156 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:32:37,156 - INFO - created directory at: data
+2024-09-19 00:32:37,168 - INFO - >>>>>> stage Data Augmentation Stage completed <<<<<<
+
+x==========x
+2024-09-19 00:32:37,168 - INFO - >>>>>> stage Model Building Stage started <<<<<<
+2024-09-19 00:32:37,169 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-19 00:32:37,170 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-19 00:32:37,170 - INFO - created directory at: data
+2024-09-19 00:32:37,418 - INFO - Model building completed
+2024-09-19 00:32:37,607 - INFO - >>>>>> stage Model Building Stage completed <<<<<<
+
+x==========x

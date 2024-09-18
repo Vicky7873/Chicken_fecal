@@ -12,7 +12,28 @@ cmd: pip install -r requirements.txt
 5. declare src as a package
 setup.py
 6. Data Ingestion EXP and modular coding added
-7. Splitting the data set
+7. Splitting the data set and modualr coding added
+8. Data Aug exp and modeular coding added
+9. model building exp and modular coding added
+
+# Why Freeze VGG16 Layers?
+Imagine you have a smart, trained dog named VGG16 who is really good at recognizing various objects in pictures (like cats, dogs, and cars) because it has been trained on thousands of images.
+
+Now, suppose you want to use VGG16 to help recognize different types of fruits in pictures. Instead of starting from scratch and training a new dog to recognize fruits, you can:
+
+Use VGG16’s Knowledge: VGG16 already knows a lot about identifying different patterns in images.
+Teach It a New Task: You only need to teach VGG16 about fruits, which is a smaller task.
+Steps to Use VGG16 for Fruit Recognition
+Use the Trained Dog (VGG16):
+
+VGG16 is like your well-trained dog that can recognize general patterns. You don’t want to change what it has already learned.
+Freeze Its Skills:
+
+You decide that you don’t want to retrain your dog’s general skills because it’s already good at it. So, you "freeze" its knowledge. This means you keep its existing skills as they are.
+Add New Training:
+
+You add a new task for VGG16, like recognizing fruits. You create new training for this specific task, using only the new knowledge (layers) that you add on top of the frozen skills.
+
 
 
 

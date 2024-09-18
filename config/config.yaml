@@ -21,3 +21,9 @@ data_aug:
   train_data_aug: data/data_augmented/train
   test_data_aug: data/data_augmented/test
   val_data_aug: data/data_augmented/val
+
+Model_Building:
+  root_dir: data/model_building
+  model_save: data/model_building/Chicken_fecal.keras
+  
+
