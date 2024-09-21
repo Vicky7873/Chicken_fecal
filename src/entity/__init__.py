@@ -42,3 +42,18 @@ class ModelBuildingConfig:
     units: int
     activation: str
     input_shape: tuple
+
+
+@dataclass(frozen=True)
+class ModelcheckpointConfig:
+    root_door: Path
+    model_save: Path
+    monitor: str
+    save_best_only: bool
+    save_weights_only: bool
+    verbose: int
+    patience: int
+    restore_best_weights: bool
+    factor: float
+    min_lr: float
+    existing_model: Path

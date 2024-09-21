@@ -1,7 +1,7 @@
 import os
 from src.constants import *
 from src.utils.common import read_yaml, create_directories
-from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig,ModelBuildingConfig
+from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig,ModelBuildingConfig,ModelcheckpointConfig
 
 
 
@@ -79,3 +79,25 @@ class ConfigurationManager:
             input_shape=params.input_shape
         )
         return model_config_one
+    
+
+
+    def get_model_checkpoint_config(self) -> ModelcheckpointConfig:
+        config = self.config.Model_Checkpoint
+        create_directories([config.root_dir])
+
+        modelcheckpoint_config = ModelcheckpointConfig(
+            root_door = config.root_dir,
+            model_save= config.model_save,
+            monitor = self.params['Model_Checkpoint']['monitor'],
+            save_best_only = self.params['Model_Checkpoint']['save_best_only'],
+            save_weights_only = self.params['Model_Checkpoint']['save_weights_only'],
+            verbose = self.params['Model_Checkpoint']['verbose'],
+            patience = self.params['Early_stopping']['patience'],
+            restore_best_weights = self.params['Early_stopping']['restore_best_weights'],
+            factor= self.params['ReduceLROnPlateau']['factor'],
+            min_lr= self.params['ReduceLROnPlateau']['min_lr'],
+            existing_model=config.existing_model
+        )
+
+        return modelcheckpoint_config

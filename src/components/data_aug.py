@@ -32,7 +32,8 @@ class DataAugmentation:
         shear_range=self.config.shear_range
         width_shift_range=self.config.width_shift_range
         height_shift_range=self.config.height_shift_range
-        target_size=tuple(self.config.target_size)
+        # target_size=tuple(self.config.target_size)
+        target_size=(int(self.config.target_size[0]), int(self.config.target_size[1])) 
 
         train_datagen = ImageDataGenerator(
             rescale=1./255,

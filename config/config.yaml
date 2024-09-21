@@ -25,5 +25,8 @@ data_aug:
 Model_Building:
   root_dir: data/model_building
   model_save: data/model_building/Chicken_fecal.keras
-  
 
+Model_Checkpoint:
+  root_dir: data/model_checkpoint
+  model_save: data/model_checkpoint/Chicken_fecal_with_callbacks.keras
+  existing_model: data/model_building/Chicken_fecal.keras

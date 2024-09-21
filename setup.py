@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Bhikipallai",
     author_email="vicky.pallai900@gmail.com",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    packages=find_packages(where=["src","research"]),
+    package_dir={"src": "src","research":"research"},
     install_requires=[]
 )
