@@ -1,7 +1,7 @@
 import os
 from src.constants import *
 from src.utils.common import read_yaml, create_directories
-from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig,ModelBuildingConfig,ModelcheckpointConfig
+from src.entity import DataIngestionConfig, DataSplittingConfig,DataAugConfig,ModelBuildingConfig,ModelcheckpointConfig,ModelEvaluationConfig
 
 
 
@@ -101,3 +101,14 @@ class ConfigurationManager:
         )
 
         return modelcheckpoint_config
+    
+
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.Model_Evaluation
+        create_directories([config.root_dir])
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir = config.root_dir,
+            model_path = config.model_path,
+            score = config.score
+        )
+        return model_evaluation_config

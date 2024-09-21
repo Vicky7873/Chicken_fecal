@@ -15,6 +15,9 @@ setup.py
 7. Splitting the data set and modualr coding added
 8. Data Aug exp and modeular coding added
 9. model building exp and modular coding added
+10. model call beck exp done
+11. model train with callback and data aug
+12. Model evaluation
 
 # Why Freeze VGG16 Layers?
 Imagine you have a smart, trained dog named VGG16 who is really good at recognizing various objects in pictures (like cats, dogs, and cars) because it has been trained on thousands of images.

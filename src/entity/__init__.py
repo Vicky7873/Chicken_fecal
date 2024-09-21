@@ -57,3 +57,10 @@ class ModelcheckpointConfig:
     factor: float
     min_lr: float
     existing_model: Path
+
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    model_path: Path
+    score: Path  

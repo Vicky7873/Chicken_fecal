@@ -30,3 +30,9 @@ Model_Checkpoint:
   root_dir: data/model_checkpoint
   model_save: data/model_checkpoint/Chicken_fecal_with_callbacks.keras
   existing_model: data/model_building/Chicken_fecal.keras
+
+Model_Evaluation:
+  root_dir: data/model_evaluation
+  model_path: data/model_checkpoint/Chicken_fecal_with_callbacks.keras
+  score: data/model_evaluation/chicken_score.json
+  
