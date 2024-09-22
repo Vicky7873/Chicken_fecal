@@ -18,6 +18,7 @@ setup.py
 10. model call beck exp done
 11. model train with callback and data aug
 12. Model evaluation
+13. Test the model
 
 # Why Freeze VGG16 Layers?
 Imagine you have a smart, trained dog named VGG16 who is really good at recognizing various objects in pictures (like cats, dogs, and cars) because it has been trained on thousands of images.
