@@ -48,6 +48,9 @@ fi
 4. chmod +x pre-commit
 5. git add . && git commit -m "Test commit"
 
+16. Mlflow added
+![alt text](image.png)
+
 
 
 
