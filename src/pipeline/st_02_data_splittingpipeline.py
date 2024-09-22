@@ -14,6 +14,7 @@ class DataSplittingPipeline:
 
 
 STAGE_NAME = "Data Splitting Stage"
+
 if __name__ == "__main__":
     try:
         logger.info(f"*******************")
