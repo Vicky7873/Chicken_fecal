@@ -32,13 +32,19 @@ setup.py
 1. cd .git/hooks
 2. nano pre-commit
 save ->control+o, press enter then control+x for exist
-3. #!/bin/bash/Check if DVC has changes
-if [ "$(dvc status -c | grep 'changes')" ]; then
-    echo "Changes detected in DVC. Running dvc repro..."
-    dvc repro
+3.#!/bin/bash
+
+echo "Pre-commit hook triggered."
+dvc repro
+status=$?
+##### Check if dvc repro succeeded
+if [ $status -ne 0 ]; then
+    echo "dvc repro failed with status $status. Commit aborted."
+    exit 1  # Abort the commit
 else
-    echo "No changes detected in DVC."
+    echo "dvc repro completed successfully."
 fi
+[here i did not check the dvc status i just dvc repro every time before commit any chnages into the git]
 4. chmod +x pre-commit
 5. git add . && git commit -m "Test commit"
 
