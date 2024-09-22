@@ -1,6 +1,8 @@
 from src.components.data_splitting import DataSplitting
 from src.config.configuration import ConfigurationManager
 from log import logger
+from pathlib import Path
+
 
 class DataSplittingPipeline:
     def __init__(self) -> None:

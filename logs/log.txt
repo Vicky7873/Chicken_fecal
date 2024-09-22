@@ -1638,3 +1638,25 @@ x====x
 2024-09-22 20:47:34,449 - INFO - >>>>>>>>>stage Data Splitting Stage Completed<<<<<<<<
 
 x====x
+2024-09-22 20:56:53,726 - INFO - start of looging
+2024-09-22 20:56:53,920 - INFO - *******************
+2024-09-22 20:56:53,920 - INFO - >>>>>>>>>stage Data Splitting Stage Started<<<<<<<<
+2024-09-22 20:56:53,924 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 20:56:53,930 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 20:56:53,932 - INFO - created directory at: data
+2024-09-22 20:56:53,932 - INFO - created directory at: data/data_splitting
+2024-09-22 20:56:54,090 - INFO - Data splitting completed
+2024-09-22 20:56:54,090 - INFO - >>>>>>>>>stage Data Splitting Stage Completed<<<<<<<<
+
+x====x
+2024-09-22 20:57:03,232 - INFO - start of looging
+2024-09-22 20:57:03,373 - INFO - *******************
+2024-09-22 20:57:03,373 - INFO - >>>>>>>>>stage Data Splitting Stage Started<<<<<<<<
+2024-09-22 20:57:03,374 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 20:57:03,375 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 20:57:03,375 - INFO - created directory at: data
+2024-09-22 20:57:03,375 - INFO - created directory at: data/data_splitting
+2024-09-22 20:57:03,524 - INFO - Data splitting completed
+2024-09-22 20:57:03,524 - INFO - >>>>>>>>>stage Data Splitting Stage Completed<<<<<<<<
+
+x====x

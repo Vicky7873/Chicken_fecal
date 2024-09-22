@@ -30,8 +30,8 @@ stages:
       size: 542
     - path: src/pipeline/st_02_data_splittingpipeline.py
       hash: md5
-      md5: 5dc6c730be54f2317ec96068d1499ba9
-      size: 814
+      md5: 8df67a5cec64d7bdb10784bc8cd26890
+      size: 839
     params:
       params.yaml:
         ratio: (.7, 0.15,0.15)
