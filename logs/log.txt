@@ -1087,3 +1087,59 @@ x==========x
 2024-09-22 00:38:11,591 - INFO - >>>>>> stage Model Evaluation Stage completed <<<<<<
 
 x==========x
+2024-09-22 12:48:58,135 - INFO - start of looging
+2024-09-22 12:49:01,320 - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+2024-09-22 12:49:01,321 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:01,323 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:01,324 - INFO - created directory at: data
+2024-09-22 12:49:01,324 - INFO - created directory at: data/data_ingestion
+2024-09-22 12:49:11,145 - INFO - raw data downloaded at: data/data_ingestion/Chicken_fecal.zip
+2024-09-22 12:49:11,146 - INFO -  creating directory: data/data_ingestion/extracted_files/
+2024-09-22 12:49:11,255 - INFO - zip file extracted at: data/data_ingestion/extracted_files/
+2024-09-22 12:49:11,256 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+2024-09-22 12:49:11,256 - INFO - >>>>>> stage Data Splitting Stage started <<<<<<
+2024-09-22 12:49:11,257 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:11,258 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:11,259 - INFO - created directory at: data
+2024-09-22 12:49:11,259 - INFO - created directory at: data/data_splitting
+2024-09-22 12:49:11,331 - INFO - Data splitting completed
+2024-09-22 12:49:11,331 - INFO - >>>>>> stage Data Splitting Stage completed <<<<<<
+
+x==========x
+2024-09-22 12:49:11,331 - INFO - >>>>>> stage Data Augmentation Stage started <<<<<<
+2024-09-22 12:49:11,333 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:11,334 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:11,334 - INFO - created directory at: data
+2024-09-22 12:49:11,349 - INFO - >>>>>> stage Data Augmentation Stage completed <<<<<<
+
+x==========x
+2024-09-22 12:49:11,349 - INFO - >>>>>> stage Model Building Stage started <<<<<<
+2024-09-22 12:49:11,350 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:11,351 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:11,351 - INFO - created directory at: data
+2024-09-22 12:49:11,640 - INFO - Model building completed
+2024-09-22 12:49:11,980 - INFO - >>>>>> stage Model Building Stage completed <<<<<<
+
+x==========x
+2024-09-22 12:49:11,980 - INFO - >>>>>> stage Final Model Training Stage started <<<<<<
+2024-09-22 12:49:11,983 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:11,987 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:11,988 - INFO - created directory at: data
+2024-09-22 12:49:11,988 - INFO - created directory at: data/model_checkpoint
+2024-09-22 12:49:47,063 - INFO - >>>>>> stage Final Model Training Stage completed <<<<<<
+
+x==========x
+2024-09-22 12:49:47,064 - INFO - >>>>>> stage Model Evaluation Stage started <<<<<<
+2024-09-22 12:49:47,066 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:47,068 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:47,068 - INFO - created directory at: data
+2024-09-22 12:49:47,068 - INFO - created directory at: data/model_evaluation
+2024-09-22 12:49:47,069 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 12:49:47,071 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 12:49:47,071 - INFO - created directory at: data
+2024-09-22 12:50:23,261 - INFO - json file saved at: data/model_evaluation/chicken_score.json
+2024-09-22 12:50:23,261 - INFO - >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+x==========x

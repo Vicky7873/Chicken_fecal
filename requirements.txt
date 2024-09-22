@@ -10,4 +10,5 @@ ensure
 gdown
 split-folders
 opencv-python
+watchdog
 -e .

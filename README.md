@@ -19,6 +19,8 @@ setup.py
 11. model train with callback and data aug
 12. Model evaluation
 13. Test the model
+# Watch dog is a lib that will track the .py file if their is any chnages has been made and save then it will trigger the entire pipeline
+14. Now added the DVC yaml file for model retraining if any code changes in the existing code
 
 # Why Freeze VGG16 Layers?
 Imagine you have a smart, trained dog named VGG16 who is really good at recognizing various objects in pictures (like cats, dogs, and cars) because it has been trained on thousands of images.
