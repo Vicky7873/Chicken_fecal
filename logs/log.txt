@@ -1627,3 +1627,14 @@ x==========x
 2024-09-22 20:28:18,899 - INFO - >>>>>>>>>stage Data Splitting Stage Completed<<<<<<<<
 
 x====x
+2024-09-22 20:47:34,058 - INFO - start of looging
+2024-09-22 20:47:34,291 - INFO - *******************
+2024-09-22 20:47:34,291 - INFO - >>>>>>>>>stage Data Splitting Stage Started<<<<<<<<
+2024-09-22 20:47:34,296 - INFO - Yaml file: config/config.yaml loaded successfully
+2024-09-22 20:47:34,301 - INFO - Yaml file: params.yaml loaded successfully
+2024-09-22 20:47:34,302 - INFO - created directory at: data
+2024-09-22 20:47:34,302 - INFO - created directory at: data/data_splitting
+2024-09-22 20:47:34,449 - INFO - Data splitting completed
+2024-09-22 20:47:34,449 - INFO - >>>>>>>>>stage Data Splitting Stage Completed<<<<<<<<
+
+x====x

@@ -27,6 +27,22 @@ setup.py
 3. dvc dag
 4. dvc repro
 ### Additionally i have added the main method for each pipeline class to run the dvc repro
+15. git hooks -> it will check the code changes if found then run the dvc repro before commit
+## git hook cmds
+1. cd .git/hooks
+2. nano pre-commit
+save ->control+o, press enter then control+x for exist
+3. #!/bin/bash/Check if DVC has changes
+if [ "$(dvc status -c | grep 'changes')" ]; then
+    echo "Changes detected in DVC. Running dvc repro..."
+    dvc repro
+else
+    echo "No changes detected in DVC."
+fi
+4. chmod +x pre-commit
+5. git add . && git commit -m "Test commit"
+
+
 
 
 # Why Freeze VGG16 Layers?

@@ -2,7 +2,6 @@ from src.components.data_splitting import DataSplitting
 from src.config.configuration import ConfigurationManager
 from log import logger
 
-
 class DataSplittingPipeline:
     def __init__(self) -> None:
         pass
