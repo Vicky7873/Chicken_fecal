@@ -11,4 +11,5 @@ gdown
 split-folders
 opencv-python
 watchdog
+dvc
 -e .

@@ -21,6 +21,12 @@ setup.py
 13. Test the model
 # Watch dog is a lib that will track the .py file if their is any chnages has been made and save then it will trigger the entire pipeline
 14. Now added the DVC yaml file for model retraining if any code changes in the existing code
+# DVC cmds
+1. dvc init
+2. dvc status
+3. dvc dag
+4. dvc repro
+### Additionally i have added the main method for each pipeline class to run the dvc repro
 
 # Why Freeze VGG16 Layers?
 Imagine you have a smart, trained dog named VGG16 who is really good at recognizing various objects in pictures (like cats, dogs, and cars) because it has been trained on thousands of images.

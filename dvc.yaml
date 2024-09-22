@@ -1,0 +1,84 @@
+stages:
+  data_ingestion:
+    cmd: python src/pipeline/st_01_data_ingestionpipeline.py
+    deps:
+      - src/pipeline/st_01_data_ingestionpipeline.py
+      - config/config.yaml
+    outs:
+      - data/data_ingestion/extracted_files
+
+  data_splitting:
+    cmd: python src/pipeline/st_02_data_splittingpipeline.py
+    deps:
+      - src/pipeline/st_02_data_splittingpipeline.py
+      - config/config.yaml
+      - params.yaml
+    params:
+      - ratio
+    outs:
+      - data/data_splitting/train
+      - data/data_splitting/test
+      - data/data_splitting/val
+
+  data_augmentation:
+    cmd: python src/pipeline/st_03_data_aug.py
+    deps:
+      - src/pipeline/st_03_data_aug.py
+      - config/config.yaml
+      - params.yaml
+    params:
+      - AUGMENTATION.horizontal_flip
+      - AUGMENTATION.vertical_flip
+      - AUGMENTATION.rotation_range
+      - AUGMENTATION.zoom_range
+      - AUGMENTATION.shear_range
+      - AUGMENTATION.width_shift_range
+      - AUGMENTATION.height_shift_range
+      - AUGMENTATION.target_size
+    outs:
+      - data/data_augmented/train
+      - data/data_augmented/test
+      - data/data_augmented/val
+  
+  model_building:
+    cmd: python src/pipeline/st_04_model_building.py
+    deps:
+      - src/pipeline/st_04_model_building.py
+      - config/config.yaml
+      - params.yaml
+    params:
+      - Model_Building.units
+      - Model_Building.activation
+      - Model_Building.input_shape
+    outs:
+      - data/model_building/Chicken_fecal.keras
+
+  
+  Model_train_with_Checkpoints:
+    cmd: python src/pipeline/st_05_model_with_callbacks.py
+    deps:
+      - src/pipeline/st_05_model_with_callbacks.py
+      - config/config.yaml
+      - params.yaml
+    params:
+      - Model_Checkpoint.monitor
+      - Model_Checkpoint.save_best_only
+      - Model_Checkpoint.save_weights_only
+      - Model_Checkpoint.verbose
+      - Early_stopping.patience
+      - Early_stopping.restore_best_weights
+      - ReduceLROnPlateau.factor
+      - ReduceLROnPlateau.min_lr
+    outs:
+      - data/model_checkpoint/Chicken_fecal_with_callbacks.keras
+
+  Model_evaluation:
+    cmd: python src/pipeline/st_06_Model_eval.py
+    deps:
+      - src/pipeline/st_06_Model_eval.py
+      - config/config.yaml
+    outs:
+      - data/model_evaluation/chicken_score.json
+
+
+  
