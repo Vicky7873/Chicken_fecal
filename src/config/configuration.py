@@ -109,6 +109,8 @@ class ConfigurationManager:
         model_evaluation_config = ModelEvaluationConfig(
             root_dir = config.root_dir,
             model_path = config.model_path,
-            score = config.score
+            score = config.score,
+            mlflow_uri='https://dagshub.com/Vicky7873/Chicken_fecal.mlflow',
+            all_params=self.params
         )
         return model_evaluation_config

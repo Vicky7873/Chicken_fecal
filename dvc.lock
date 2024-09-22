@@ -161,10 +161,10 @@ stages:
       size: 1177
     - path: src/pipeline/st_06_Model_eval.py
       hash: md5
-      md5: a379faf6653c5f0c7d50ca35ca4526c0
-      size: 935
+      md5: 2ed874e729b0eb9774444c6c86681fc7
+      size: 972
     outs:
     - path: data/model_evaluation/chicken_score.json
       hash: md5
-      md5: 5a7c0d8e1aa115c6f4d88bb50c98c249
+      md5: d42705e2a02a98fbbd3eacafe6e5b289
       size: 75

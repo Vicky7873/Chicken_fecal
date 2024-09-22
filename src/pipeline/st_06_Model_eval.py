@@ -16,6 +16,7 @@ class ModelEvaluationPipeline:
         model_eval = ModelEvaluation(config = eval_config, evl_config = aug_config)
         model_eval.model_evaluate()
         model_eval.save_score()
+        model_eval.log_model_mlfow()
 
     
 

@@ -12,4 +12,6 @@ split-folders
 opencv-python
 watchdog
 dvc
+dagshub
+mlflow
 -e .

@@ -6,6 +6,8 @@ from src.config.configuration import ConfigurationManager
 from src.utils.common import save_json
 from pathlib import Path
 from src.entity import ModelEvaluationConfig
+import mlflow
+import dagshub
 
 
 class ModelEvaluation:
@@ -35,3 +37,25 @@ class ModelEvaluation:
         }
         json_path = self.config.score
         save_json(path = Path(json_path), data = scores)
+
+    def log_model_mlfow(self):
+
+        dagshub.init(repo_owner='Vicky7873', repo_name='Chicken_fecal', mlflow=True)
+
+        mlflow.set_registry_uri(self.config.mlflow_uri)
+        mlflow.set_experiment("Mlflow Bhiki")
+
+        with mlflow.start_run():
+            mlflow.log_metric("train_acc", self.train_acc)
+            mlflow.log_artifact(self.config.score)
+            
+
+            for param_name, param_value in self.config.all_params.items():
+                mlflow.log_param(param_name, param_value)
+
+            # Register the model in the MLflow Model Registry
+            model = self.model_load()
+            mlflow.keras.log_model(model, "model", registered_model_name="VGG16Model")
+            
+            # Logging the model as an artifact
+            mlflow.keras.log_model(model, "model")

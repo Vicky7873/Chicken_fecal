@@ -64,3 +64,5 @@ class ModelEvaluationConfig:
     root_dir: Path
     model_path: Path
     score: Path  
+    mlflow_uri: str 
+    all_params: dict
