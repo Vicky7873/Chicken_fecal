@@ -191,5 +191,9 @@ AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app
 
-
+![alt text](image-3.png)
+on desktop
+![alt text](image-4.png)
+on mobile
+![alt text](image-5.png)
 
