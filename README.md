@@ -51,6 +51,38 @@ fi
 16. Mlflow added
 ![alt text](image.png)
 
+17. index.html and flask added and run successfully
+![alt text](image-1.png)
+
+Note: -> 
+    we will get the file after executing 
+    file = request.files['file']
+
+    # this will convert the live file into an image
+    image = Image.open(file.stream)
+
+    then we can not do the pre-process with so we need to convert it to array
+    image = img_to_array(image)
+
+    then normal process like normalize and reshape the image
+    image = image/255.0
+    image = image.reshape((1,224,224,3))
+
+Note2: -> Key Points:
+reshape: [here we need to define/ tell that the its a one picture or multiple ] 
+
+You specify the new shape explicitly, including all dimensions (e.g., (1, 224, 224, 3)).
+You have to know and provide the correct dimensions.
+
+np.expand_dims: [here it will take automatically(height,width,channels) as we provide the input phase] 
+
+You just tell it which axis to add a new dimension to (e.g., axis=0 for the batch dimension).
+It automatically adjusts the shape to add that new dimension without needing to specify the others.
+So, expand_dims is often more convenient when you just want to add a batch dimension!
+
+
+    
+
 
 
 

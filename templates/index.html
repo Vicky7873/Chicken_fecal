@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Fecal Classifier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .upload-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .upload-container input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .upload-container button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .upload-container button:hover {
+            background-color: #218838;
+        }
+        .result-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .result {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        .result.success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Chicken Fecal Classifier</h2>
+
+<div class="upload-container">
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Upload and Analyze</button>
+    </form>
+
+    {% if result %}
+    <div class="result-container">
+        <p class="result success">Prediction: {{ result }}</p>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="result-container">
+        <p class="result failure">Error: {{ error }}</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
