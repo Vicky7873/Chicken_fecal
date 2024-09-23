@@ -15,4 +15,5 @@ dvc
 dagshub
 mlflow
 flask
--e .
+pillow
+# -e .

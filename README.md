@@ -124,3 +124,11 @@ this .py file will zip unzip the data and store the data into the respective fol
 to run the pipe line we need write the pieace of code
 8. update the app.py
 
+# Dockerize 
+### run this project in local docker
+1. docker build -t cfc .
+cfc is my docker image name
+2. docker run -p 8080:8080 cfc
+![alt text](image-2.png)
+
+

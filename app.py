@@ -1,7 +1,6 @@
 import os
 from flask import Flask, request, jsonify,render_template
 from tensorflow.keras.models import load_model
-import cv2
 import numpy as np
 from tensorflow.keras.preprocessing.image import img_to_array,load_img
 from PIL import Image
