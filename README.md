@@ -26,7 +26,7 @@ setup.py
 2. dvc status
 3. dvc dag
 4. dvc repro
-### Additionally i have added the main method for each pipeline class to run the dvc repro
+
 15. git hooks -> it will check the code changes if found then run the dvc repro before commit
 ## git hook cmds
 1. cd .git/hooks
@@ -53,58 +53,6 @@ fi
 
 17. index.html and flask added and run successfully
 ![alt text](image-1.png)
-
-Note: -> 
-    we will get the file after executing 
-    file = request.files['file']
-
-    # this will convert the live file into an image
-    image = Image.open(file.stream)
-
-    then we can not do the pre-process with so we need to convert it to array
-    image = img_to_array(image)
-
-    then normal process like normalize and reshape the image
-    image = image/255.0
-    image = image.reshape((1,224,224,3))
-
-Note2: -> Key Points:
-reshape: [here we need to define/ tell that the its a one picture or multiple ] 
-
-You specify the new shape explicitly, including all dimensions (e.g., (1, 224, 224, 3)).
-You have to know and provide the correct dimensions.
-
-np.expand_dims: [here it will take automatically(height,width,channels) as we provide the input phase] 
-
-You just tell it which axis to add a new dimension to (e.g., axis=0 for the batch dimension).
-It automatically adjusts the shape to add that new dimension without needing to specify the others.
-So, expand_dims is often more convenient when you just want to add a batch dimension!
-
-
-    
-
-
-
-
-# Why Freeze VGG16 Layers?
-Imagine you have a smart, trained dog named VGG16 who is really good at recognizing various objects in pictures (like cats, dogs, and cars) because it has been trained on thousands of images.
-
-Now, suppose you want to use VGG16 to help recognize different types of fruits in pictures. Instead of starting from scratch and training a new dog to recognize fruits, you can:
-
-Use VGG16’s Knowledge: VGG16 already knows a lot about identifying different patterns in images.
-Teach It a New Task: You only need to teach VGG16 about fruits, which is a smaller task.
-Steps to Use VGG16 for Fruit Recognition
-Use the Trained Dog (VGG16):
-
-VGG16 is like your well-trained dog that can recognize general patterns. You don’t want to change what it has already learned.
-Freeze Its Skills:
-
-You decide that you don’t want to retrain your dog’s general skills because it’s already good at it. So, you "freeze" its knowledge. This means you keep its existing skills as they are.
-Add New Training:
-
-You add a new task for VGG16, like recognizing fruits. You create new training for this specific task, using only the new knowledge (layers) that you add on top of the frozen skills.
-
-
 
 
 # Workflows
